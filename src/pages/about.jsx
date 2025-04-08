@@ -36,7 +36,7 @@ export default function AboutSection() {
   whileInView="visible"
   viewport={{ once: true}} 
   variants={containerVariants}
-  className="mt-10 mb-16" // 👈 
+  className="mt-20 mb-16" // 👈 
 >
   <motion.h2 
     variants={itemVariants}

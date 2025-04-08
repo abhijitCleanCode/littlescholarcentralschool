@@ -98,7 +98,7 @@ import {
               transition={{ duration: 0.5 }}
               className="text-center mb-20"
             >
-              <h1 className="text-5xl font-bold text-gray-900 mb-4 mt-20">Academic Programs</h1>
+              <h1 className="text-5xl font-bold text-gray-900 mb-4 mt-30">Academic Programs</h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Discover our comprehensive educational offerings designed to inspire and challenge students at every level.
               </p>
