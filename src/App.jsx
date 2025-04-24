@@ -6,12 +6,15 @@ import MissionSection from './components/ourMission'
 import { CardStackDemo } from './components/review2'
 import { FooterWithMap } from './components/footer'
 // import { AboutSection } from './pages/about/components/hero'
-import { CarouselWithContent } from './components/ui/carousel'
+// import { CarouselWithContent } from './components/ui/carousel'
 import AboutSection from './pages/about'
 import AcademicsPage from './pages/acedemics'
 import GalleryPage from './pages/gallery'
 import ContactForm from './pages/contack'
 import AdmissionForm from './pages/admission'
+import { SchoolWelcome } from './components/ui/welcome'
+import PrincipalMessage from './components/ui/principleMessage'
+import ChairmanMessage from './components/ui/chairmen'
 
 function App() {
   return (
@@ -20,8 +23,10 @@ function App() {
       <Route path="/" element={
         <>
           <Navbar />
-         <CarouselWithContent/>
+        <SchoolWelcome/>
           <SchoolIntroduction />
+          <PrincipalMessage></PrincipalMessage>
+          <ChairmanMessage></ChairmanMessage>
           <MissionSection />
           <CardStackDemo />
           <FooterWithMap />

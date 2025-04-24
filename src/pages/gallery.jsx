@@ -8,52 +8,52 @@ const GalleryPage = () => {
   const galleryImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      src: "img1.jpg",
       alt: "Students in classroom",
-      category: "Learning"
+     
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      src: "img2.jpg",
       alt: "Science lab experiment",
-      category: "STEM"
+   
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      src: "md.jpg",
       alt: "Teacher with students",
-      category: "Guidance"
+     
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1547347298-4074fc3086f0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      src: "princ.jpg",
       alt: "Sports activities",
-      category: "Athletics"
+     
     },
-    {
-      id: 5,
-      src: "https://images.unsplash.com/photo-1567942712661-82b9b407abbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      alt: "Art exhibition",
-      category: "Arts"
-    },
-    {
-      id: 6,
-      src: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      alt: "Library resources",
-      category: "Resources"
-    },
-    {
-      id: 7,
-      src: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      alt: "Campus building",
-      category: "Campus"
-    },
-    {
-      id: 8,
-      src: "https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      alt: "Student collaboration",
-      category: "Community"
-    }
+    // {
+    //   id: 5,
+    //   src: "https://images.unsplash.com/photo-1567942712661-82b9b407abbf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    //   alt: "Art exhibition",
+    //   category: "Arts"
+    // },
+    // {
+    //   id: 6,
+    //   src: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    //   alt: "Library resources",
+    //   category: "Resources"
+    // },
+    // {
+    //   id: 7,
+    //   src: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    //   alt: "Campus building",
+    //   category: "Campus"
+    // },
+    // {
+    //   id: 8,
+    //   src: "https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    //   alt: "Student collaboration",
+    //   category: "Community"
+    // }
   ];
 
   // Animation variants

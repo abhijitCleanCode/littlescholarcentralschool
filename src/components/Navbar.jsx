@@ -55,6 +55,7 @@ const Navbar = () => {
                   <span className="absolute left-0 -bottom-1 h-[2px] bg-black w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
                 </button>
               ))}
+                
             </div>
 
             {/* Login Button */}
@@ -65,8 +66,10 @@ const Navbar = () => {
               Login
               <span className="absolute left-0 -bottom-1 h-[2px] bg-black w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
             </button>
+            
           </div>
-
+          
+         
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button

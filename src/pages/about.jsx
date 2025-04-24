@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+// import Image from "next/image";
 
 export default function AboutSection() {
   // Animation variants
@@ -26,52 +27,79 @@ export default function AboutSection() {
   };
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-      <div className="max-w-6xl mx-auto mt-30">
- 
-        
-        {/* About Us Section - Moved down */}
+    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white my-45">
+      <div className="max-w-6xl mx-auto">
+        {/* Enhanced About Us Section */}
         <motion.div
-  initial="hidden"
-  whileInView="visible"
-  viewport={{ once: true}} 
-  variants={containerVariants}
-  className="mt-20 mb-16" // 👈 
->
-  <motion.h2 
-    variants={itemVariants}
-    className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center font-serif"
-  >
-    About <span className="text-blue-900">Little Scholars’ Cetral  School</span>
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={containerVariants}
+          className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20"
+        >
+          {/* Text Content - Left Side */}
+          <motion.div variants={itemVariants}>
+            <motion.h2 
+              variants={itemVariants}
+              className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 font-serif"
+            >
+              About <span className="text-blue-700">LITTLE SCHOLAR'S CENTRAL SCHOOL</span>
+            </motion.h2>
 
-  </motion.h2>
+            <motion.div 
+              variants={itemVariants}
+              className="w-24 h-1 bg-blue-600 mb-8"
+            ></motion.div>
+            
+            <motion.p 
+              variants={itemVariants}
+              className="text-lg text-gray-600 mb-6 leading-relaxed"
+            >
+              Little Scholars' Central School, South Hailakandi, was founded in the year 2016. 
+              The school is situated at Aloicherra-IV, P.O. Karicherra Bazar, Hailakandi. 
+              In the present academic year, it caters to students from Nursery to class-II.
+            </motion.p>
+            
+            <motion.p 
+              variants={itemVariants}
+              className="text-lg text-gray-600 mb-6 leading-relaxed"
+            >
+              The School is proposed to be affiliated to the Central Board of Secondary Education. 
+              With provision for classes Nursery and KG schooling to offer the 10+2 years of 
+              schooling in Central Board of Secondary Education (CBSE).
+            </motion.p>
 
-  <motion.div 
-    variants={itemVariants}
-    className="w-24 h-1 bg-blue-600 mx-auto mb-12"
-  ></motion.div>
-          
-          <motion.p 
+            <motion.p 
+              variants={itemVariants}
+              className="text-lg text-gray-600 leading-relaxed"
+            >
+              The school has excellent environment, updated equipment, highly skilled & qualified 
+              academicians and also a highly qualified and experienced Principal. We are committed 
+              to provide quality education and follow the CBSE Curriculum.
+            </motion.p>
+          </motion.div>
+
+          {/* Image - Right Side */}
+          <motion.div
             variants={itemVariants}
-            className="text-lg text-gray-600 mb-8 max-w-4xl mx-auto text-center leading-relaxed"
+            className="relative h-full min-h-[400px] rounded-xl overflow-hidden shadow-xl"
           >
-            Founded in 1985, Greenfield Academy has been a beacon of educational excellence, 
-            nurturing young minds to become confident, compassionate, and capable leaders 
-            of tomorrow. Our beautiful 25-acre campus provides the perfect environment 
-            for holistic development.
-          </motion.p>
-          
-          <motion.p 
-            variants={itemVariants}
-            className="text-lg text-gray-600 mb-8 max-w-4xl mx-auto text-center leading-relaxed"
-          >
-            With a rich history spanning nearly four decades, we've consistently maintained 
-            our position as one of the region's top educational institutions, combining 
-            academic rigor with creative expression and character development.
-          </motion.p>
+            <img
+              src="https://img.freepik.com/premium-photo/empty-classr%E2%80%A6om-school-without-student-teacher_969459-2627.jpg"
+              alt="Little Scholar's Central School"
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+            <div className="absolute bottom-0 left-0 p-6 text-white">
+              <h3 className="text-xl font-bold">Our Campus</h3>
+              <p className="text-sm">A nurturing environment for young minds</p>
+            </div>
+          </motion.div>
         </motion.div>
 
-        {/* Rest of the existing content remains the same */}
+        {/* Rest of the content remains the same */}
         <motion.div 
           initial="hidden"
           whileInView="visible"

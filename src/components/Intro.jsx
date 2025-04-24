@@ -71,7 +71,7 @@ const SchoolIntroduction = () => {
       >
         <motion.div variants={itemVariants}>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 font-serif">
-            Welcome to Our Prestigious Institution
+            Welcome to  <span className="text-blue-700">LITTLE SCHOLAR'S</span> CENTRAL SCHOOL
           </h2>
         </motion.div>
         
@@ -81,10 +81,8 @@ const SchoolIntroduction = () => {
         
         <motion.div variants={itemVariants}>
           <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-            Founded in 1985, our school has been a beacon of excellence in education, 
-            nurturing young minds to become leaders of tomorrow. With state-of-the-art 
-            facilities and a dedicated faculty, we provide an environment where students 
-            can thrive academically, socially, and personally.
+          Little Scholars' Central School with all its might welcome you. LSCS is a school with an innovative vision in the field of education and personal excellence. Remarkably, LSCS adhere to the very basic purpose of National & International standard of education. L.SCS is head-ing towards a deviation from the conventional system of education.
+
           </p>
         </motion.div>
       </motion.div>
@@ -112,16 +110,13 @@ const SchoolIntroduction = () => {
             variants={itemVariants}
             className="w-full md:w-1/2"
           >
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            {/* <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Our World-Class Campus
-            </h3>
+            </h3> */}
             <p className="text-gray-600 mb-6">
-              Spread across 25 acres of lush greenery, our campus features modern 
-              classrooms, advanced science labs, a fully-equipped library, and 
-              extensive sports facilities. The perfect environment for holistic 
-              development.
+            This however doesn't mean departure from the actual teaching and educating practices. The fundamental concept of the school is to reduce the generation gap in the entire field, by the time the students get mature and enter into the practical aspects of the life. LSCS is the new meaning to a new dimension of education pattern
             </p>
-            <button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition" onClick={()=>navigate('/about')}>
+            <button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition" onClick={()=>navigate('/academics')}>
               Explore Facilities
             </button>
           </motion.div>
@@ -151,14 +146,11 @@ const SchoolIntroduction = () => {
             variants={itemVariants}
             className="w-full md:w-1/2"
           >
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+            {/* <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               Innovative Learning Approach
-            </h3>
+            </h3> */}
             <p className="text-gray-600 mb-6">
-              Our student-centered pedagogy combines traditional teaching methods 
-              with cutting-edge technology. We emphasize critical thinking, 
-              creativity, and collaboration to prepare students for the challenges 
-              of the 21st century.
+            LSCS is not just a school. It is a place where the children's learn more practically about body, mind, world and the scientific developments. All the basic concept of education is cocooned to capture the mantle of human philosophy and its existence. The school understands the importance of coeval maturity.
             </p>
             <button className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition" onClick={()=>navigate('/academics')}>
               Our Curriculum
