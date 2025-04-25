@@ -15,6 +15,8 @@ import AdmissionForm from './pages/admission'
 import { SchoolWelcome } from './components/ui/welcome'
 import PrincipalMessage from './components/ui/principleMessage'
 import ChairmanMessage from './components/ui/chairmen'
+import FacilitiesSection from './components/facilities'
+import GalleryPages from './components/gallery'
 
 function App() {
   return (
@@ -24,10 +26,13 @@ function App() {
         <>
           <Navbar />
         <SchoolWelcome/>
-          <SchoolIntroduction />
+        
           <PrincipalMessage></PrincipalMessage>
           <ChairmanMessage></ChairmanMessage>
+         
           <MissionSection />
+          <FacilitiesSection></FacilitiesSection>
+          <GalleryPages></GalleryPages>
           <CardStackDemo />
           <FooterWithMap />
         </>

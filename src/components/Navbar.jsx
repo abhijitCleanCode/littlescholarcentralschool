@@ -11,7 +11,7 @@ const Navbar = () => {
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
     { name: "Academics", path: "/academics" },
-    { name: "Gallary", path: "/gallary" },
+    { name: "Gallery", path: "/gallary" },
     { name: "Contact Us", path: "/contact" },
     { name: "Admission", path: "/admission" },
   ];

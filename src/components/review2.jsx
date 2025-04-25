@@ -44,31 +44,31 @@ export const Highlight = ({
 const CARDS = [
   {
     id: 0,
-    name: "Sarah Johnson",
-    designation: "Parent of Grade 5 Student",
+    name: "Anita Sharma",
+    designation: "Parent of Class 6 Student",
     content: (
       <p>
-        The teachers at this school are <Highlight>exceptional</Highlight>. My daughter has flourished both academically and socially since joining.
+        The teachers here are truly <Highlight>dedicated and caring</Highlight>. My son has become more confident and active in class since joining.
       </p>
     ),
   },
   {
     id: 1,
-    name: "Michael Chen",
-    designation: "Alumni, Class of 2018",
+    name: "Rahul Mehta",
+    designation: "Alumnus, Batch of 2016",
     content: (
       <p>
-        The foundation I received here <Highlight>prepared me perfectly</Highlight> for university. The college counseling was outstanding.
+        This school gave me a strong academic base and <Highlight>helped shape my future</Highlight>. The guidance from teachers was invaluable during board exams.
       </p>
     ),
   },
   {
     id: 2,
-    name: "Dr. Emma Rodriguez",
-    designation: "Board Member",
+    name: "Dr. Kavita Iyer",
+    designation: "Parent & School Advisory Board Member",
     content: (
       <p>
-        I'm continually impressed by the <Highlight>innovative curriculum</Highlight> and commitment to student wellbeing at this school.
+        I admire the school's <Highlight>holistic approach to education</Highlight>. They balance academics with co-curriculars beautifully.
       </p>
     ),
   },
