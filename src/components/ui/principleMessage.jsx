@@ -68,7 +68,7 @@ const PrincipalMessage = () => {
             you to know is that we give our students permission to dream big.
           </p>
           <div className="flex flex-col">
-            <span className="text-blue-700 font-semibold text-lg">— Shipra Singha</span>
+            <span className="text-blue-700 font-semibold text-lg">— MADHUSHRI ROY</span>
             <span className="text-gray-500">M.Com, B.Ed</span>
           </div>
         </motion.div>
@@ -81,7 +81,7 @@ const PrincipalMessage = () => {
           <div className="absolute -inset-4 bg-gradient-to-br from-blue-100 to-indigo-200 rounded-[3rem] rotate-2 -z-10"></div>
           <div className="relative overflow-hidden rounded-[2.5rem] shadow-2xl border-8 border-white">
             <img
-              src="princ.jpg"
+              src="princ1.jpeg"
               alt="Principal Shipra Singha"
               className="w-full h-auto object-cover aspect-[4/4]"
             />
