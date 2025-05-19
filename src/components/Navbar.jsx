@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Header from "./ui/wecomeHeader";
 
 const Navbar = () => {
@@ -55,28 +55,35 @@ const Navbar = () => {
                   <span className="absolute left-0 -bottom-1 h-[2px] bg-black w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
                 </button>
               ))}
-                
             </div>
 
-            {/* Login Button */}
-            <button
-              onClick={() => handleNavigation("/login")}
-              className="relative text-white font-semibold hover:text-black transition group bg-blue-900 rounded-2xl px-4 py-1.5"
-            >
-              Login
+            {/* Admin Login Button */}
+            <button className="relative text-white font-semibold transition group bg-blue-900 rounded-2xl px-4 py-1.5">
+              <Link to="https://smartschool.webholicinfotech.com/site/login">
+                Admin
+              </Link>
               <span className="absolute left-0 -bottom-1 h-[2px] bg-black w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
             </button>
-            
+            {/* user login button */}
+            <button className="relative text-white font-semibold transition group bg-blue-900 rounded-2xl px-4 py-1.5">
+              <Link to="https://smartschool.webholicinfotech.com/site/userlogin">
+                User
+              </Link>
+              <span className="absolute left-0 -bottom-1 h-[2px] bg-black w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
+            </button>
           </div>
-          
-         
+
           {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="text-black hover:text-black transition"
             >
-              {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isMobileMenuOpen ? (
+                <X className="w-6 h-6" />
+              ) : (
+                <Menu className="w-6 h-6" />
+              )}
             </button>
           </div>
         </div>
@@ -94,11 +101,17 @@ const Navbar = () => {
               {item.name}
             </button>
           ))}
-          <button
-            onClick={() => handleNavigation("/login")}
-            className="block w-full text-left text-black py-2 px-3 rounded hover:bg-gray-100 font-medium transition"
-          >
-            Login
+          {/* admin login button */}
+          <button className="block w-full text-left text-black py-2 px-3 rounded hover:bg-gray-100 font-medium transition">
+            <Link to="https://smartschool.webholicinfotech.com/site/login">
+              Admin
+            </Link>
+          </button>
+          {/* user login button */}
+          <button className="block w-full text-left text-black py-2 px-3 rounded hover:bg-gray-100 font-medium transition">
+            <Link to="https://smartschool.webholicinfotech.com/site/userlogin">
+              User
+            </Link>
           </button>
         </div>
       )}
