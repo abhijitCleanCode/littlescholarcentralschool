@@ -59,16 +59,12 @@ const Navbar = () => {
 
             {/* Admin Login Button */}
             <button className="relative text-white font-semibold transition group bg-blue-900 rounded-2xl px-4 py-1.5">
-              <Link to="https://smartschool.webholicinfotech.com/site/login">
-                Admin
-              </Link>
+              <Link to="https://lcs.wimraw.com/site/login">Admin</Link>
               <span className="absolute left-0 -bottom-1 h-[2px] bg-black w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
             </button>
             {/* user login button */}
             <button className="relative text-white font-semibold transition group bg-blue-900 rounded-2xl px-4 py-1.5">
-              <Link to="https://smartschool.webholicinfotech.com/site/userlogin">
-                User
-              </Link>
+              <Link to="https://lcs.wimraw.com/site/userlogin">User</Link>
               <span className="absolute left-0 -bottom-1 h-[2px] bg-black w-0 group-hover:w-full transition-all duration-300 ease-in-out"></span>
             </button>
           </div>
@@ -103,15 +99,11 @@ const Navbar = () => {
           ))}
           {/* admin login button */}
           <button className="block w-full text-left text-black py-2 px-3 rounded hover:bg-gray-100 font-medium transition">
-            <Link to="https://smartschool.webholicinfotech.com/site/login">
-              Admin
-            </Link>
+            <Link to="https://lcs.wimraw.com/site/login">Admin</Link>
           </button>
           {/* user login button */}
           <button className="block w-full text-left text-black py-2 px-3 rounded hover:bg-gray-100 font-medium transition">
-            <Link to="https://smartschool.webholicinfotech.com/site/userlogin">
-              User
-            </Link>
+            <Link to="https://lcs.wimraw.com/site/userlogin">User</Link>
           </button>
         </div>
       )}
